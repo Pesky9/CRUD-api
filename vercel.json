@@ -13,6 +13,6 @@
     }
   ],
   "env": {
-    "PORT": "200"
+    "MONGO_URI": "mongodb+srv://ypesky0:ge6ANXGf8YivAeky@cluster0.le9py.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0"
   }
 }
