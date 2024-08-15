@@ -8,6 +8,9 @@ const {
 
 const router = express.Router();
 
+router.get("/", (req, res) => {
+  res.send("CRUD Server Running");
+});
 router.route("/getnote").get(GetNote);
 router.route("/addnote").post(AddNote);
 router.route("/updatenote").post(UpdateNote);
