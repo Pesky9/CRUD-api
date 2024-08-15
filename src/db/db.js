@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const ConnectDB = async () => {
   try {
     const connectionInstance = await mongoose.connect(
-      "mongodb+srv://ypesky0:ge6ANXGf8YivAeky@cluster0.le9py.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+      "mongodb+srv://ypesky0:ge6ANXGf8YivAeky@cluster0.le9py.mongodb.net/test?retryWrites=true&w=majority&appName=Cluster0"
     );
     console.log(
       `\n MongoDB connected !! DB HOST: ${connectionInstance.connection.host}`
