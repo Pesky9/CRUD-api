@@ -4,8 +4,6 @@ const router = require("./src/routes/user.routes");
 const app = express();
 const { ConnectDB } = require("./src/db/db");
 
-ConnectDB();
-
 app.use(
   cors({
     origin: ["https://crud-app-psi-lime.vercel.app"],
